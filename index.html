@@ -76,6 +76,7 @@
             align-items: center;
             padding-right: 20px;
             padding-left: 20px;
+            max-width: 330px;
 
 
 
@@ -117,6 +118,40 @@
             font-weight: bold;
             font-size: large;
 
+        }
+
+
+        @media (max-width: 480px) {
+            .Container {
+                padding: 10px;
+            }
+
+            .card {
+                min-height: auto;
+                gap: 18px;
+            }
+
+            .card img {
+                height: 160px;
+            }
+
+            .card h2 {
+                font-size: 1.3rem;
+            }
+
+            .card p {
+                font-size: 0.9rem;
+            }
+
+            #AmountBox,
+            #PaymentButton {
+                width: 95%;
+            }
+
+            .leftbox img {
+                width: 3rem;
+                height: 3rem;
+            }
         }
     </style>
 </head>
